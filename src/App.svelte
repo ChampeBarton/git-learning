@@ -44,7 +44,7 @@
         // var l = d.letter;
         return {x, y, h, id};
     });
-    
+
     // change # 2
     
     $: xTicks = data.map(d => {
@@ -83,7 +83,7 @@
 
 <style>
     rect {
-      fill: rgb(132, 190, 99);
+      fill: rgb(99, 172, 190);
     }
     
     rect:hover {
