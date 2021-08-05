@@ -7,6 +7,7 @@
     import { format } from 'd3-format';
 	import data from './data.tsv';
     
+    // This is a change to this file. Register it, git overlords!
 
     let margin = {top: 50, right: 20, bottom: 30, left: 40}
     let width = 960;
@@ -43,6 +44,8 @@
         // var l = d.letter;
         return {x, y, h, id};
     });
+    
+    // change # 2
     
     $: xTicks = data.map(d => {
         var id = letterDict[d.letter];
